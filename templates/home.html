@@ -15,8 +15,8 @@
 </head>
 <body>
 	<h1>Vice vera</h1>
-	<form action="" style="width: 450px;">
-		<textarea name="" id="" cols="30" rows="10" style="width:100%"></textarea>
+	<form action="{% url 'reverse' %}" style="width: 450px;">
+		<textarea name="usertext" id="" cols="30" rows="10" style="width:100%"></textarea>
 		<input type="submit" value="Reverse!">
 	</form>
 </body>
